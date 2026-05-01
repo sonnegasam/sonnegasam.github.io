@@ -82,10 +82,10 @@ analytics:
 author:
   name             : "Sam Sonnega"
   avatar           : "telem.png"
-  bio              : "PhD Student"
-  location         : "Dartmouth, Massachusetts"
+  bio              : "Ecologist and non-practicing intellectual"
+  location         : #"Dartmouth, Massachusetts"
   employer         : "University of Massachussetts Dartmouth"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AP6z3Oa_Fd1-DFH1t19DZY_jxfd7CRd8z2I1BHbBr-bFp30-o9jwquS4iE_osxQyYLg3cWlhCBx_eEu005FArg&user=YNi4PbwAAAAJ"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
@@ -103,7 +103,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0009-0004-2580-0845"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
