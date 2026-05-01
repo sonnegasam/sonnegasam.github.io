@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-![illustration of a peromyscus mouse] (/images/mouse_1.png){: .align-right width="300px"}
+![illustration of a peromyscus mouse](/images/mouse_1.png){: .align-right width="300px"}
 I'm a PhD student at the University of Massachusetts Dartmouth.
 
 My research concerns the causes and consequences of host-microbiome interactions in wild animals. 
