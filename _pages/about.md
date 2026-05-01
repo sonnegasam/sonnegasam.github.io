@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hello there, I'm Sam!"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,8 +8,14 @@ redirect_from:
   - /about.html
 ---
 
+![illustration of a peromyscus mouse] (/images/mouse_1.png){: .align-right width="300px"}
+I'm a PhD student at the University of Massachusetts Dartmouth.
 
-Hello world
+My research concerns the causes and consequences of host-microbiome interactions in wild animals. 
+
+I am also interested in wild animal welfare, and the many difficulties in measuring it.
+
+
 
 For more info
 ------
