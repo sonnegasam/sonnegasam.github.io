@@ -2,23 +2,34 @@ name: Jekyll site CI
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "master", "main" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "master", "main" ]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
+    - uses: actions/checkout@v4
+
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
       with:
-        node-version: '24'
-    - name: Build the site in the jekyll/builder container
+        ruby-version: '3.2'
+        bundler-cache: true
+
+    - name: Install dependencies
       run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "cd /srv/jekyll && bundle config set --local path 'vendor/bundle' && bundle install --jobs 4 --retry 3 && chmod -R 777 /srv/jekyll && bundle exec jekyll build --future"
+        gem install bundler --conservative
+        bundle config set --local path 'vendor/bundle'
+        bundle install --jobs 4 --retry 3
+
+    - name: Build the site
+      run: bundle exec jekyll build --future
+
+    - name: Upload site artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: site
+        path: _site
