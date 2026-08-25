@@ -29,8 +29,8 @@ jobs:
       run: bundle exec jekyll build --future
 
     - name: Upload site artifact
-  uses: actions/upload-artifact@v4
-  with:
-    name: site
-    path: ./_site
+      uses: actions/upload-artifact@v4
+      with:
+        name: site
+        path: _site
 
