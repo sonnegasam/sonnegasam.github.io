@@ -8,9 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I'm a PhD student at the University of Massachusetts Dartmouth.
+I'm a wildlife ecologist, with a broad range of interests, following my curiosity with rigor.
 
 <img src="/images/mouse_1.PNG" alt="illustration of a peromyscus mouse" align="right" width="300">
+<img src="/images/nyu conference.jpg" alt="talking at nyu welfare conference" align="right" width="300">
 
 My research concerns the causes and consequences of host-microbiome interactions in wild animals. 
 
