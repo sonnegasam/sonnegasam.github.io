@@ -1,16 +1,13 @@
-# main links links
+# Main navigation
 main:
-
   - title: "Write"
-    url: /publications/
-    url: https://scholar.google.com/citations?user=YNi4PbwAAAAJ&hl=en 
+    url: https://scholar.google.com/citations?user=YNi4PbwAAAAJ&hl=en
 
   - title: "Teach"
-    url: /teaching/    
-    
+    url: /teaching/
+
+  - title: "Musings"
+    url: /musings/
+
   - title: "CV"
-    url: /cv/
     url: /files/Sam Sonnega CV August 2026.pdf
-
-
-    

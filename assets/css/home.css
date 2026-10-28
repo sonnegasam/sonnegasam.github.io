@@ -1,0 +1,49 @@
+/* Homepage-only layout; keep the site's existing typography and sidebar. */
+.home-intro {
+  max-width: 38em;
+  margin: 0 0 2rem;
+}
+.home-intro p {
+  margin: 0 0 1rem;
+  line-height: 1.7;
+}
+.home-intro .home-intro__lead {
+  font-size: 1.2em;
+  line-height: 1.55;
+  margin-bottom: 1.25rem;
+}
+.home-images {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 2rem;
+  max-width: 42em;
+  margin: 0 0 2rem;
+}
+.home-images figure {
+  display: block;
+  margin: 0;
+  min-width: 0;
+}
+.home-images img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 320px;
+  object-fit: contain;
+  margin: 0 auto;
+}
+@media (max-width: 600px) {
+  .home-images {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+  .home-images figure {
+    max-width: 26rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .home-images figure:last-child {
+    max-width: 18rem;
+  }
+}
