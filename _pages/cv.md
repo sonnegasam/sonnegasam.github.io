@@ -7,4 +7,4 @@ redirect_from:
   - /resume
 ---
 
-[Download my CV — October 2026 (Word document)]({{ '/files/Sonnega_CV_Oct_2026.docx' | relative_url }}).
+[Download my CV — October 2026 (PDF)]({{ '/files/Sonnega_CV_Oct_2026.pdf' | relative_url }}).
