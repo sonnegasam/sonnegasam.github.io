@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: ""
+title: null
 excerpt: "Wildlife ecology, host-microbiome interactions, and wild animal welfare."
 author_profile: true
 redirect_from:
